@@ -1,5 +1,4 @@
-#include <iostream>
-
+// this block of program consist of class Owner which is used to retrive the information of owner
 class Owner {
 private:
     bool Sleeping; // the boolean operation shows true if awake and flase if sleeping
@@ -23,11 +22,3 @@ public:
         }
     }
 };
-
-int main() {
-    Owner homeowner;  // creating object of class Owner
-
-    cout << "Initial Sleeping State: " << homeowner.getSleeping() << std::endl; // prints the initial information about sleeping state of owner
-
-    return 0;
-}
