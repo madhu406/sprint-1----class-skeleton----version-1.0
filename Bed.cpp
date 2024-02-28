@@ -1,7 +1,5 @@
 // this program is of class Bed which indicates the whether the owner slepping and awake
 
-#include <iostream>
-
 class Bed {
 private:
     bool sleeping; // true if sleeping, false if not awake
@@ -25,12 +23,3 @@ public:
         }
     }
 };
-
-int main() {
-
-    Bed bed;
-
-    cout << "Status: " << (bed.get slepp() ? "sleep" : "awake") << std::endl;
-
-    return 0;
-}
