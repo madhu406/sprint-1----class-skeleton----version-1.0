@@ -1,6 +1,4 @@
-//this program includes Geyser class as super class which inherits  EnvironmentSensor class and WaterHeater class
-
-#include <iostream>
+//this block of program includes Geyser class as super class which inherits  EnvironmentSensor class and WaterHeater class
 
 // super class
 class Geyser {
@@ -29,18 +27,3 @@ public:
         }
     }
 };
-
-int main() {
-    EnvironmentSensor environmentGeyser;    // objects are created 
-    WaterHeater waterHeaterGeyser;
-
-    // Activate the environment geyser
-    cout << "Activating Environment Sensor Geyser:" << std::endl;
-    environmentGeyser.activate();
-
-    // Activate the water heater geyser
-    std::cout << "\nActivating Water Heater Geyser:" << std::endl;
-    waterHeaterGeyser.activate();
-
-    return 0;
-}
